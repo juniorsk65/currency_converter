@@ -1,0 +1,42 @@
+.Converter {
+  width: 100%;
+  padding: 0 15%;
+  box-sizing: border-box;
+  text-align: center;
+}
+.Form {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.Form input {
+  width: 100px;
+}
+.Form input,
+select {
+  padding: 5px;
+  margin: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #282c34;
+}
+.Converter button {
+  background-color: white;
+  border-radius: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  color: black;
+  border: 1px solid #282c34;
+}
+.Converter h3 {
+  border-radius: 10px;
+  padding: 8px;
+  font-size: 30px;
+  color: white;
+}
+.Converter span {
+  color: white;
+  font-size: 28px;
+}
